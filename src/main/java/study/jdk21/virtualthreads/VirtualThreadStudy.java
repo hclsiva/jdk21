@@ -12,9 +12,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.stream.IntStream;
 
-//https://blog.rockthejvm.com/ultimate-guide-to-java-virtual-threads/
-//https://github.com/alexcheng1982/jdk-loom-faq
-
 @Slf4j
 public class VirtualThreadStudy {
     static class Bathroom {
